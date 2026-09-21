@@ -1,0 +1,26 @@
+{
+  "name": "@alvaroak/pi-model-cycle-provider",
+  "version": "0.1.0",
+  "description": "Model cycling with the provider shown in the switch toast, for the Pi coding agent",
+  "license": "MIT",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "models",
+    "shortcuts"
+  ],
+  "files": [
+    "model-cycle-provider.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  },
+  "pi": {
+    "extensions": [
+      "./model-cycle-provider.ts"
+    ]
+  }
+}
